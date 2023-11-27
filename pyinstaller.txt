@@ -1,0 +1,1 @@
+pyinstaller -F -i 图标.ico client.py --noconsole

@@ -1,0 +1,1 @@
+send(sys.argv[0])

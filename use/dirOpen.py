@@ -1,0 +1,1 @@
+send(easygui.diropenbox('open dir'))

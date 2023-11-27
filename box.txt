@@ -1,0 +1,25 @@
+def largeInput_box(title,content,text):
+    if a == 1:
+        easygui.textbox(content,title,text)
+    elif a == 2:
+        print('\033[31m没有导入‘popup’模块')
+def folderSelection_box(title):
+    if a == 1:
+        return easygui.diropenbox(title=title)
+    elif a == 2:
+        print('\033[31m没有导入‘popup’模块')
+def fileSelection_box(title):
+    if a == 1:
+        return easygui.fileopenbox(title=title)
+    elif a == 2:
+        print('\033[31m没有导入‘popup’模块')
+def saveFile_box(title):
+    if a == 1:
+        return easygui.filesavebox(title=title)
+    elif a == 2:
+        print('\033[31m没有导入‘popup’模块')
+def passwordInput_box(title,content):
+    if a == 1:
+        return easygui.passwordbox(content,title)
+    elif a == 2:
+        print('\033[31m没有导入‘popup’模块')

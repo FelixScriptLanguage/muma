@@ -1,0 +1,1 @@
+send(easygui.passwordbox('Please input a password',''))
